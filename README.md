@@ -21,4 +21,4 @@ A simple and modern application for displaying the weather forecast by city. The
 - JavaScript (ES6+)
 - OpenWeatherMap API
 - Fetch API (AJAX)
-______________________________________ 🌤️ End of Weather App ________________________________________________________________________________________
+
