@@ -1,5 +1,6 @@
-const iconCode = data.weather[0].icon;
-const iconUrl = `https://openweathermap.org/img/wn/${iconCode}@2x.png`;
+const iconCode = data.weather[0].icon; // ikonice
+const iconUrl = `https://openweathermap.org/img/wn/${iconCode}@2x.png`; // adresa ikonica
+
 
 function getWeather() {
     const city = document.getElementById("cityInput").value;
