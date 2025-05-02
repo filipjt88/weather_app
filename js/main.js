@@ -21,8 +21,8 @@ function getWeather() {
         return response.json();
       })
       .then(data => {
-        const iconCode = data.weather[0].icon;
-        const iconUrl = `https://openweathermap.org/img/wn/${iconCode}@2x.png`;
+        const iconCode = data.weather[0].icon; // ikonica
+        const iconUrl = `https://openweathermap.org/img/wn/${iconCode}@2x.png`; // url link
       
         const weatherDiv = document.getElementById("weatherResult");
         weatherDiv.innerHTML = `
