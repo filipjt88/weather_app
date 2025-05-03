@@ -1,4 +1,4 @@
-______________________________________ 🌤️ Weather App ________________________________________________________________________________________
+______________________________________ 🌤️ Weather App _________________________________________
 
 A simple and modern application for displaying the weather forecast by city. The application uses the **OpenWeatherMap API** and is built using **JavaScript** and **AJAX (Fetch)** technology.
 
