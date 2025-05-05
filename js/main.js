@@ -10,9 +10,10 @@ function getWeather() {
       alert("Unesite naziv grada.");
       return;
     }
-  
+  // Url API
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
-  
+    
+  // fetch url
     fetch(url)
       .then(response => {
         if (!response.ok) {
